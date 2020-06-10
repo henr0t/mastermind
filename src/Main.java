@@ -46,8 +46,6 @@ class Mastermind {
             Set<Character> incorrectP = new HashSet<>();
             List<Character> correctP = new ArrayList<>();
 
-            System.out.println("RESET CODE"+computer1.code);
-
             //zet de userInput on in een character ArrayList
             List<Character> userCode = new ArrayList<>();
             for (int i=0;i<4; i++){
@@ -102,8 +100,6 @@ ArrayList<Character>code = new ArrayList<>();
         code.add(randomLetter());
         code.add(randomLetter());
         code.add(randomLetter());
-
-//System.out.println("Answer "+code)
     }
 
     char randomLetter() {
