@@ -38,8 +38,8 @@ class Mastermind {
                 break;
             }
 
-            if(userInput.length() < 4){
-                userInput= userInput+"___";
+            if(userInput.length() < 4 || userInput == null){
+                userInput= userInput+"____";
             }
 
             //correct en incorrect ArrayList
